@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import MuniLogo from "../images/msm.png"
 import SocialIcons from "../components/SocialIcons";
 import { motion } from "framer-motion";
-import resume from "../pages/about/michael-yeates-resume.pdf";
 import { useInView } from "react-intersection-observer";
 
 const AboutMe = ({ name, email, location, availability, brand }) => {
@@ -18,18 +17,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
     setDownloading(false);
   }, [downloading]);
 
-  const handleDownload = () => {
-    setDownloading(true);
-    const link = document.createElement("a");
-    link.href = resume;
-    link.download = "Michael-Yeates-Resume.pdf";
-    link.onload = () => {
-      link.remove();
-      setDownloading(false);
-    };
-    document.body.appendChild(link);
-    link.click();
-  };
+  
 
   return (
     <div className="aboutContainer container">

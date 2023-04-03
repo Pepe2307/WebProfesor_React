@@ -1,14 +1,13 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
 import "./index.css";
 import "./pages/landing/landing.css";
 import "./pages/about/about.css";
-import "./pages/portfolio/portfolio.css";
+import "./pages/temario_portfolio/temario_portfolio.css";
 import "./pages/contact/contact.css";
 
 import App from "./App";
-
 import { BrowserRouter } from "react-router-dom";
+import React from "react";
+import ReactDOM from "react-dom/client";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
