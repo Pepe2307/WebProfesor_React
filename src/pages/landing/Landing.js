@@ -1,5 +1,6 @@
 import MuniLogo from "../../images/msm.png"
 import Presentacion_3D_Pablo from '../../pdfs/Presentacion_3D_Pablo.pdf';
+import { Slider } from "../../components/Slider/Slider";
 import SocialIcons from "../../components/SocialIcons";
 import angelMuni from "../../images/angel.png"
 import landingImage from "../../images/me.svg";
@@ -68,8 +69,8 @@ const Landing = ({ name, tagline }) => {
         >
           {tagline}
         </motion.p>
-
       </div>
+      
       <div className="image-container">
         <motion.img
           className="landingImage"
@@ -81,10 +82,16 @@ const Landing = ({ name, tagline }) => {
           src={angelMuni}
           alt=""
         />
-      </div>
-
+      </div>   
+      
       <SocialIcons />
+      
+      <div className="slider_section">
+            <Slider/>
+      </div>
+      
     </section>
+    
   );
 };
 

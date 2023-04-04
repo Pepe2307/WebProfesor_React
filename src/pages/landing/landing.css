@@ -16,12 +16,14 @@
 } */
 
 .landing .socialIcons {
-  display: flex;
-  position: absolute;
-  left: 50px;
-  bottom: 20px;
+    display: flex;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
 }
-
+.slider_section{
+    display: none;
+}
 /* --- MEDIA QUERIES --- */
 
 @media (min-width: 750px) {
@@ -41,4 +43,14 @@
   .landing .socialIcons {
     flex-direction: column;
   }
+  
+}
+@media (min-width: 930px) {
+    .slider_section{
+        display: flex;
+        position: absolute;
+        /* left: 50px; */
+        bottom: 20px;
+        width: 40%;
+    }
 }
