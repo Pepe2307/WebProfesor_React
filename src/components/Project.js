@@ -36,7 +36,7 @@ const Project = ({ technologies, title, image, color, id, deployed, description,
         className="projectCard d-flex align-items-center justify-content-center p-5"
         onClick={handleOpenModal}
       >
-        <div className="textWrap col-6 d-flex flex-column justify-content-center align-items-center m-5">
+        <div className="textWrap col-8 d-flex flex-column justify-content-center align-items-center m-5">
           <p className="tech">
             <em>{technologies}</em>
           </p>
@@ -44,9 +44,10 @@ const Project = ({ technologies, title, image, color, id, deployed, description,
           <span className="viewWork">Ver Temario &#8594;</span>
         </div>
         <div className="imageContainer col-6 d-flex align-items-center justify-content-center">
-          <img src={image} alt="Laptop displaying application" />
+          <img src={image} alt=" Img_Curso" />
         </div>
       </div>
+      
       <Modal
         isOpen={showModal}
         onRequestClose={handleCloseModal}
@@ -93,26 +94,6 @@ const Project = ({ technologies, title, image, color, id, deployed, description,
                 {null}
               </div>
         }
-        
-        {/* Sacamos la URL */}
-        {/* <button className="btn"  type="button">
-            <a href = {Presentacion_3D_Pablo} target = "_blank">Download Pdf</a>
-        </button> */}
-
-
-
-
-        {/* <button className="btn" onClick={() => (window.location.href = deployed, '_blank')}>
-          Presentacion PDF!
-        </button> */}
-
-        {/* <a href = {Presentacion_3D_Pablo} target = "_blank">Download Pdf</a> */}
-        
-        {/* <div className="buttonContainer">
-            <a href = {deployed} target="_blank" rel="">
-                <button className="btn">Web de la Municipalidad</button>
-            </a>
-        </div> */}
         
       </Modal>
     </motion.div>

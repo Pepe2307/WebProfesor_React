@@ -52,6 +52,19 @@ const ContactInfo = ({ name, email, location }) => {
             </div>
           </div>
         </li>
+
+        <li>
+          <div className="personalContactInfo">
+            <span className="infoIcon">
+              <i className="icon fa-solid fa-laptop-code"></i>{" "}
+            </span>
+            <div className="mediaWrap">
+              <h6 className="infoType">Web Desarrolada por Pablo Paez</h6>
+              <span className="infoValue">Contacto: pablopaez2307@gmail.com</span>
+            </div>
+          </div>
+        </li>
+
       </ul>
     </motion.div>
   );

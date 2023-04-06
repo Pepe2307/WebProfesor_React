@@ -23,17 +23,17 @@
     "image": "./projectImages/scratch.png",
     "technologies": "Programacion de videojuegos",
     "description": "Scratch es un motor de videojuegos desarrollado por MIT Media Lab.​ Su principal característica consiste en que permite el desarrollo de habilidades mentales mediante el aprendizaje de la programación sin tener conocimientos profundos sobre el código",
-    "deployed": "https://drive.google.com/file/d/1_atUXTM-L9r4NccsrPaaWqPyNu37ftwH/view",
+    "deployed": "",
     "bgcolor": "#6c4bf4",
     "id": "3",
     "deployed2": "http://localhost:3000/static/media/Presentacion_3D_Pablo.3931ea83c44e791e8930.pdf"
   },
   {
     "title": "Robotica Jr",
-    "image": "./projectImages/cubroid.png",
+    "image": "./projectImages/cubroid_edit.png",
     "technologies": "Cubroid",
     "description": "A través de bloques conectivos dinámicos y codificación simple, Cubroid ofrece una experiencia divertida y educativa para que los niños expresen su creatividad.",
-    "deployed": "https://mdyeates.github.io/coding-quiz/",
+    "deployed": "",
     "bgcolor": "#f85781",
     "id": "4",
     "deployed2": "http://localhost:3000/static/media/Presentacion_3D_Pablo.3931ea83c44e791e8930.pdf"
@@ -44,7 +44,7 @@
     "image": "./projectImages/dw.png",
     "description": "Desarrollo web es un término que define la creación de sitios web para Internet o una intranet. Para conseguirlo se hace uso de tecnologías de software del lado del servidor y del cliente que involucran una combinación de procesos de base de datos con el uso de un navegador web a fin de realizar determinadas tareas o mostrar información.",
     "technologies": "Html | Css | Javascript | Bootstrap ",
-    "deployed": "https://p1-heroes.netlify.app/",
+    "deployed": "",
     "bgcolor": "#ffcc33",
     "id": "1"
   },

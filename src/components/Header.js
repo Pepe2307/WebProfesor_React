@@ -1,6 +1,5 @@
 import MuniLogo from "../images/msm.png"
 import NavLinks from "./NavLinks";
-import logo from "../images/logo.svg";
 
 const Header = () => {
     const styles = {

@@ -18,7 +18,7 @@ const Contact = ({ name, email, location }) => {
             <div className="col-12 col-lg-6">
                 {/* <Form/> */}
                 <div className="image-container">
-                    <img src={ColegioM} className="App-logo" alt="logo"
+                    <img className='img_col' src={ColegioM} /* className="App-logo" */ alt="logo"
                     /* style={{border-radius 50% 20% / 10% 40%;}}
                     style={{color: "red", }} */
                     style={{borderRadius: '50px'}}

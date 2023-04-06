@@ -34,8 +34,7 @@ export const Slider = () => {
             <img  className='slider_img' src="https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8YFL5QQVPy3AgrEQxNYVSgiPEbe.jpg" />
             <img  className='slider_img' src="https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/uDgy6hyPd82kOHh6I95FLtLnj6p.jpg" />
             <img  className='slider_img' src="https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/xDMIl84Qo5Tsu62c9DGWhmPI67A.jpg" />
-            {/* <img  className='slider_img' src={Imagen1} /> */}
-            
+            {/* <img  className='slider_img' src={Imagen1} /> */}            
         </Carousel>
 
         {/* <Carousel wrapAround={true} slidesToShow={1} animation={'zoom'} >

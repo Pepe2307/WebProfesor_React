@@ -2,8 +2,7 @@ import MuniLogo from "../../images/msm.png"
 import Presentacion_3D_Pablo from '../../pdfs/Presentacion_3D_Pablo.pdf';
 import { Slider } from "../../components/Slider/Slider";
 import SocialIcons from "../../components/SocialIcons";
-import angelMuni from "../../images/angel.png"
-import landingImage from "../../images/me.svg";
+import angelMuni6 from "../../images/angel6.png"
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -21,9 +20,18 @@ const Landing = ({ name, tagline }) => {
       bottom: "0",
       opacity: "0.3",
       mixBlendMode: "lighten",
-      height: "30%",
+      height: "25%",
     },
 
+    MuniLogo: {
+        position: "absolute",
+        bottom: "50px",
+        opacity: "0.3",
+        mixBlendMode: "lighten",
+        height: "25%",
+      },
+      
+      
     textContainer: {
       display: "flex",
       flexDirection: "column",
@@ -50,6 +58,8 @@ const Landing = ({ name, tagline }) => {
   return (
     <section className="landing" style={styles.landing}>
       <div className="textContainer" style={styles.textContainer}>
+
+
         <motion.h1
           className="name"
           style={styles.name}
@@ -69,6 +79,7 @@ const Landing = ({ name, tagline }) => {
         >
           {tagline}
         </motion.p>
+
       </div>
       
       <div className="image-container">
@@ -78,18 +89,24 @@ const Landing = ({ name, tagline }) => {
           initial={{ x: "4vw", opacity: 0 }}
           animate={inView ? { x: -10, opacity: 1 } : { x: "-10vw", opacity: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
-          style={styles.angelMuni}
-          src={angelMuni}
+          style={styles.MuniLogo}
+          src={MuniLogo}
           alt=""
         />
       </div>   
       
       <SocialIcons />
-      
+
+ 
+
       <div className="slider_section">
-            <Slider/>
+        <img  className='slider_img' src={angelMuni6}/>
       </div>
-      
+
+      {/* <div className="slider_section">
+            <Slider/>
+      </div> */}
+
     </section>
     
   );
