@@ -30,7 +30,7 @@
   },
   {
     "title": "Robotica Jr",
-    "image": "./projectImages/cubroid_edit.png",
+    "image": "./projectImages/cubroid_edit2.png",
     "technologies": "Cubroid",
     "description": "A través de bloques conectivos dinámicos y codificación simple, Cubroid ofrece una experiencia divertida y educativa para que los niños expresen su creatividad.",
     "deployed": "",
@@ -38,7 +38,6 @@
     "id": "4",
     "deployed2": "http://localhost:3000/static/media/Presentacion_3D_Pablo.3931ea83c44e791e8930.pdf"
   },
-
   {
     "title": "Desarrollo Web",
     "image": "./projectImages/dw.png",
@@ -48,7 +47,6 @@
     "bgcolor": "#ffcc33",
     "id": "1"
   },
-
   {
     "title": "Proximamente mas!",
     "image": "./projectImages/angel.png",

@@ -1,3 +1,4 @@
+import ColegioM from "../images/colegio-maximo-san-miguel.jpg"
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useState } from "react";
@@ -65,7 +66,14 @@ const Form = () => {
       transition={{ duration: 0.4, ease: "easeInOut" }}
       onSubmit={handleSubmit}
     >
-      <h4 className="contentTitle">Message Me</h4>
+        <div className="image-container">
+            <img className='img_col' src={ColegioM} /* className="App-logo" */ alt="logo"
+            /* style={{border-radius 50% 20% / 10% 40%;}}
+            style={{color: "red", }} */
+            style={{borderRadius: '50px'}}
+            />
+        </div>
+      {/* <h4 className="contentTitle">Message Me</h4>
       <div className="col-12 col-md-6 formGroup" style={{ display: "inline-block" }}>
         <input
           type="text"
@@ -116,7 +124,7 @@ const Form = () => {
       </div>
       <div className="col-12 formGroup formSubmit">
         <button className="btn">{success ? "Message Sent" : "Send Message"}</button>
-      </div>
+      </div> */}
     </motion.form>
   );
 };

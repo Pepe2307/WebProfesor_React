@@ -36,7 +36,7 @@ const Project = ({ technologies, title, image, color, id, deployed, description,
         className="projectCard d-flex align-items-center justify-content-center p-5"
         onClick={handleOpenModal}
       >
-        <div className="textWrap col-8 d-flex flex-column justify-content-center align-items-center m-5">
+        <div className="textWrap col-8 d-flex flex-column justify-content-center align-items-center m-4">
           <p className="tech">
             <em>{technologies}</em>
           </p>
