@@ -15,6 +15,7 @@
     "technologies": "Arduino",
     "description": "Arduino es una compañía de desarrollo de software y hardware libres, así como una comunidad internacional que diseña y manufactura placas de desarrollo de hardware para construir dispositivos digitales y dispositivos interactivos que puedan detectar y controlar objetos del mundo real. Arduino se enfoca en acercar y facilitar el uso de la electrónica y programación de sistemas embebidos en proyectos multidisciplinarios",
     "deployed": "http://localhost:3000/static/media/Presentaci%C3%B3n_Robotica_Pablo.3bc355ef882f5f1a105e.pdf",
+    "deployed3": "../../../public/public_PDFs/Presentación_Robotica_Pablo.pdf",
     "bgcolor": "#29cbe0",
     "id": "2"
   },

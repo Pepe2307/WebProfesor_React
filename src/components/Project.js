@@ -1,11 +1,12 @@
 import Modal from "react-modal";
-import Presentacion_3D_Pablo from '../pdfs/Presentación_Robotica_Pablo.pdf';
+import Presentacion_3D_Pablo from '../pdfs/Presentacion_3D_Pablo.pdf';
+import Presentacion_Robotica_Pablo from '../pdfs/Presentación_Robotica_Pablo.pdf';
 import closeModal from "../images/close.svg";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useState } from "react";
 
-const Project = ({ technologies, title, image, color, id, deployed, description, deployed2 }) => {
+const Project = ({ technologies, title, image, color, id, deployed, description, deployed2, deployed3 }) => {
   const [ref, inView] = useInView({
     threshold: 0.5,
     triggerOnce: true,
@@ -94,6 +95,31 @@ const Project = ({ technologies, title, image, color, id, deployed, description,
                 {null}
               </div>
         }
+
+
+        {deployed3
+        ?   <button className="btn"  type="button">
+                <a href = {deployed} target="_blank">
+                    <button className="btn">Ideas de proyectos 2!</button>
+                </a>
+            </button>
+
+            : <div>
+                {null}
+              </div>
+        }
+
+        {/* Presentacion_3D_Pablo
+
+        <div className = "App">
+          <a href = {Pdf} target = "_blank">Download Pdf</a>
+        </div> */}
+
+        <button className="btn"  type="button">
+            <a href = {Presentacion_3D_Pablo} target="_blank">
+                <button className="btn">TEST</button>
+            </a>
+        </button>
         
       </Modal>
     </motion.div>
