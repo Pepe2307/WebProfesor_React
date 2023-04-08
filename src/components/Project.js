@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useState } from "react";
 
-const Project = ({ technologies, title, image, color, id, deployed, description, deployed2, deployed3 }) => {
+const Project = ({ technologies, title, image, color, id, deployed, description, deployed2 }) => {
   const [ref, inView] = useInView({
     threshold: 0.5,
     triggerOnce: true,

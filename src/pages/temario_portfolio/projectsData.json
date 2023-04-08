@@ -4,19 +4,18 @@
     "image": "./projectImages/3dprinter.png",
     "description": "La impresión 3D es un avance muy importante de tecnologías de fabricación por adición donde un objeto tridimensional es creado mediante la superposición de capas sucesivas de material",
     "technologies": "Diseño Digital y fabricacion 3D",
-    "deployed": "http://localhost:3000/static/media/Presentacion_3D_Pablo.3931ea83c44e791e8930.pdf",
+    "deployed": "",
     "bgcolor": "#f37737",
     "id": "1",
-    "deployed2": "http://localhost:3000/static/media/Presentacion_3D_Pablo.3931ea83c44e791e8930.pdf"
+    "deployed2": ""
   },
   {
     "title": "Robotica",
     "image": "./projectImages/arduino.png",
     "technologies": "Arduino",
     "description": "Arduino es una compañía de desarrollo de software y hardware libres, así como una comunidad internacional que diseña y manufactura placas de desarrollo de hardware para construir dispositivos digitales y dispositivos interactivos que puedan detectar y controlar objetos del mundo real. Arduino se enfoca en acercar y facilitar el uso de la electrónica y programación de sistemas embebidos en proyectos multidisciplinarios",
-    "deployed": "http://localhost:3000/static/media/Presentaci%C3%B3n_Robotica_Pablo.3bc355ef882f5f1a105e.pdf",
-    "deployed2": "../../../public/public_PDFs/Presentacion_3D_Pablo.pdf",
-    "deployed3": "../../../public/public_PDFs/Presentacion_3D_Pablo.pdf",
+    "deployed": "",
+    "deployed2": "",
     "bgcolor": "#29cbe0",
     "id": "2"
   },
@@ -28,7 +27,7 @@
     "deployed": "",
     "bgcolor": "#6c4bf4",
     "id": "3",
-    "deployed2": "http://localhost:3000/static/media/Presentacion_3D_Pablo.3931ea83c44e791e8930.pdf"
+    "deployed2": ""
   },
   {
     "title": "Robotica Jr",
@@ -38,7 +37,7 @@
     "deployed": "",
     "bgcolor": "#f85781",
     "id": "4",
-    "deployed2": "http://localhost:3000/static/media/Presentacion_3D_Pablo.3931ea83c44e791e8930.pdf"
+    "deployed2": ""
   },
   {
     "title": "Desarrollo Web",

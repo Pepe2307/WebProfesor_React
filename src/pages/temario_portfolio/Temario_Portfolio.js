@@ -16,7 +16,6 @@ const Temario_Portfolio = () => {
         deployed={project.deployed}
         description={project.description}
         deployed2={project.deployed2}
-        deployed3={project.deployed3}
       />
     ));
 
