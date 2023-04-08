@@ -80,46 +80,12 @@ const Project = ({ technologies, title, image, color, id, deployed, description,
         <p className="projectDescription">{description}</p>
 
 
-
-
-        <button className="btn"  type="button">
-            <a href = {deployed} target="_blank">
-                <button className="btn">Presentacion PDF!</button>
-            </a>
-        </button>
-
-
-        {deployed2
-        ?   <button className="btn"  type="button">
-                <a href = {deployed2} target="_blank">
-                    <button className="btn">Ideas de proyectos!</button>
-                </a>
-            </button>
-
-            : <div>
-                {null}
-              </div>
-        }
-
-
-        {/* {deployed3
-        ?   <button className="btn"  type="button">
-                <a href = {deployed3} target="_blank">
-                    <button className="btn">Ideas de proyectos 2!</button>
-                </a>
-            </button>
-
-            : <div>
-                {null}
-              </div>
-        } */}
-
         {/* 3D */}
         {id==1
         ?   
         <button className="btn"  type="button">
             <a href = {Presentacion_3D_Pablo} target="_blank">
-                <button className="btn">PDF TEST</button>
+                <button className="btn">Presentacion Diseño 3D</button>
             </a>
         </button>
 
@@ -134,7 +100,7 @@ const Project = ({ technologies, title, image, color, id, deployed, description,
         ?   
         <button className="btn"  type="button">
             <a href = {Presentacion_Robotica_Pablo} target="_blank">
-                <button className="btn">PDF TEST robotica</button>
+                <button className="btn">Presentacion Robotica</button>
             </a>
         </button>
 
@@ -207,7 +173,7 @@ const Project = ({ technologies, title, image, color, id, deployed, description,
         ?   
         <button className="btn"  type="button">
             <a href = {Cubroid} target="_blank">
-                <button className="btn">Cubroid</button>
+                <button className="btn">Presentacion Cubroid</button>
             </a>
         </button>
 
@@ -216,61 +182,36 @@ const Project = ({ technologies, title, image, color, id, deployed, description,
             {null}
         </div>
         }
-        
 
-        {/* Presentacion_3D_Pablo
-
-        <div className = "App">
-          <a href = {Pdf} target = "_blank">Download Pdf</a>
-        </div> */}
-
-        {/* PRESENTACION 3D */}
-        {/* <button className="btn"  type="button">
-            <a href = {Presentacion_3D_Pablo} target="_blank">
-                <button className="btn">3D</button>
-            </a>
-        </button> */}
-
-        {/* ROBOTICA */}
-        {/* <button className="btn"  type="button">
-            <a href = {Presentacion_Robotica_Pablo} target="_blank">
-                <button className="btn">ROBOTICA</button>
-            </a>
-        </button> */}
-
-        {/* SCRATCH */}
-        {/* <button className="btn"  type="button">
-            <a href = {Scratch1} target="_blank">
-                <button className="btn">SCRATCH1</button>
+        {/* DESARROLLO WEB */}
+        {id==5
+        ?   
+        <button className="btn"  type="button">
+            <a /* href = {} target="_blank" */>
+                <button className="btn">Proximamente!</button>
             </a>
         </button>
 
+        : 
+        <div>
+            {null}
+        </div>
+        }
+
+        {/* Dentro de poco card */}
+        {id==6
+        ?   
         <button className="btn"  type="button">
-            <a href = {Scratch2} target="_blank">
-                <button className="btn">SCRATCH2</button>
+            <a /* href = {} target="_blank" */>
+                <button className="btn">Proximamente!</button>
             </a>
         </button>
 
-
-        <button className="btn"  type="button">
-            <a href = {Scratch3} target="_blank">
-                <button className="btn">SCRATCH3</button>
-            </a>
-        </button>
-
-
-        <button className="btn"  type="button">
-            <a href = {ScratchManual} target="_blank">
-                <button className="btn">MANUAL SCRATCH</button>
-            </a>
-        </button> */}
-
-        {/* CUBROID */}
-        {/* <button className="btn"  type="button">
-            <a href = {Cubroid} target="_blank">
-                <button className="btn">Cubroid</button>
-            </a>
-        </button> */}
+        : 
+        <div>
+            {null}
+        </div>
+        }
 
       </Modal>
     </motion.div>
