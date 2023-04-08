@@ -1,6 +1,11 @@
+import Cubroid from '../pdfs/Cubroid.pdf'
 import Modal from "react-modal";
 import Presentacion_3D_Pablo from '../pdfs/Presentacion_3D_Pablo.pdf';
 import Presentacion_Robotica_Pablo from '../pdfs/Presentación_Robotica_Pablo.pdf';
+import Scratch1 from '../pdfs/Scratch/Clase_1.pdf'
+import Scratch2 from '../pdfs/Scratch/clase_2.pdf'
+import Scratch3 from '../pdfs/Scratch/Clase_3.pdf'
+import ScratchManual from '../pdfs/Scratch/Manual_Scratch.pdf'
 import closeModal from "../images/close.svg";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -86,7 +91,7 @@ const Project = ({ technologies, title, image, color, id, deployed, description,
 
         {deployed2
         ?   <button className="btn"  type="button">
-                <a href = {deployed} target="_blank">
+                <a href = {deployed2} target="_blank">
                     <button className="btn">Ideas de proyectos!</button>
                 </a>
             </button>
@@ -97,9 +102,9 @@ const Project = ({ technologies, title, image, color, id, deployed, description,
         }
 
 
-        {deployed3
+        {/* {deployed3
         ?   <button className="btn"  type="button">
-                <a href = {deployed} target="_blank">
+                <a href = {deployed3} target="_blank">
                     <button className="btn">Ideas de proyectos 2!</button>
                 </a>
             </button>
@@ -107,7 +112,111 @@ const Project = ({ technologies, title, image, color, id, deployed, description,
             : <div>
                 {null}
               </div>
+        } */}
+
+        {/* 3D */}
+        {id==1
+        ?   
+        <button className="btn"  type="button">
+            <a href = {Presentacion_3D_Pablo} target="_blank">
+                <button className="btn">PDF TEST</button>
+            </a>
+        </button>
+
+        : 
+        <div>
+            {null}
+        </div>
         }
+
+        {/* ROBOTICA */}
+        {id==2
+        ?   
+        <button className="btn"  type="button">
+            <a href = {Presentacion_Robotica_Pablo} target="_blank">
+                <button className="btn">PDF TEST robotica</button>
+            </a>
+        </button>
+
+        : 
+        <div>
+            {null}
+        </div>
+        }
+
+        {/* SCRATCH */}
+        {id==3
+        ?   
+        <button className="btn"  type="button">
+            <a href = {Scratch1} target="_blank">
+                <button className="btn">SCRATCH CLASE 1</button>
+            </a>
+        </button>
+
+        : 
+        <div>
+            {null}
+        </div>
+        }
+
+        {id==3
+        ?   
+        <button className="btn"  type="button">
+            <a href = {Scratch2} target="_blank">
+                <button className="btn">SCRATCH CLASE 2</button>
+            </a>
+        </button>
+
+        : 
+        <div>
+            {null}
+        </div>
+        }
+
+        {id==3
+        ?   
+        <button className="btn"  type="button">
+            <a href = {Scratch3} target="_blank">
+                <button className="btn">SCRATCH CLASE 3</button>
+            </a>
+        </button>
+
+        : 
+        <div>
+            {null}
+        </div>
+        }
+
+        {id==3
+        ?   
+        <button className="btn"  type="button">
+            <a href = {ScratchManual} target="_blank">
+                <button className="btn">SCRATCH MATERIAL EXTRA</button>
+            </a>
+        </button>
+
+        : 
+        <div>
+            {null}
+        </div>
+        }
+
+
+        {/* CUBROID */}
+        {id==4
+        ?   
+        <button className="btn"  type="button">
+            <a href = {Cubroid} target="_blank">
+                <button className="btn">Cubroid</button>
+            </a>
+        </button>
+
+        : 
+        <div>
+            {null}
+        </div>
+        }
+        
 
         {/* Presentacion_3D_Pablo
 
@@ -115,12 +224,54 @@ const Project = ({ technologies, title, image, color, id, deployed, description,
           <a href = {Pdf} target = "_blank">Download Pdf</a>
         </div> */}
 
-        <button className="btn"  type="button">
+        {/* PRESENTACION 3D */}
+        {/* <button className="btn"  type="button">
             <a href = {Presentacion_3D_Pablo} target="_blank">
-                <button className="btn">TEST</button>
+                <button className="btn">3D</button>
+            </a>
+        </button> */}
+
+        {/* ROBOTICA */}
+        {/* <button className="btn"  type="button">
+            <a href = {Presentacion_Robotica_Pablo} target="_blank">
+                <button className="btn">ROBOTICA</button>
+            </a>
+        </button> */}
+
+        {/* SCRATCH */}
+        {/* <button className="btn"  type="button">
+            <a href = {Scratch1} target="_blank">
+                <button className="btn">SCRATCH1</button>
             </a>
         </button>
-        
+
+        <button className="btn"  type="button">
+            <a href = {Scratch2} target="_blank">
+                <button className="btn">SCRATCH2</button>
+            </a>
+        </button>
+
+
+        <button className="btn"  type="button">
+            <a href = {Scratch3} target="_blank">
+                <button className="btn">SCRATCH3</button>
+            </a>
+        </button>
+
+
+        <button className="btn"  type="button">
+            <a href = {ScratchManual} target="_blank">
+                <button className="btn">MANUAL SCRATCH</button>
+            </a>
+        </button> */}
+
+        {/* CUBROID */}
+        {/* <button className="btn"  type="button">
+            <a href = {Cubroid} target="_blank">
+                <button className="btn">Cubroid</button>
+            </a>
+        </button> */}
+
       </Modal>
     </motion.div>
   );
